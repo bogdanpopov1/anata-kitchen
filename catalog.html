@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anata - Кухни</title>
+    <title>Каталог</title>
     <link rel="stylesheet" href="asserts/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <div class="container">
 
         <header>
@@ -114,29 +115,40 @@
 
         </header>
 
-        <div class="banner">
+        <div class="main">
 
-            <img src="asserts/banner/kitchen_1.png" alt="kitchen_1">
+            <div class="ways">
 
-            <div class="banner_text">
-
-                <h3>Кухни от производителя</h3>
-                <h1>-40%</h1>
-                <h4>На коллекции кухонь</h4>
-
-                <button>Выбрать</button>
+                <a href="index.html" class="main_page">Главная</a>
+                <p>/</p>
+                <a href="catalog.html" class="ways_catalog">Каталог</a>
 
             </div>
 
-        </div>
+            <h1 class="catalog_title">Наши кухни</h1>
 
-        <div class="main">
+            <div class="catalog_filter">
+                <div class="catalog_buttons">
 
+                    <button>Стиль</button>
+                    <button>Фасад</button>
+                    <button>Форма</button>
+                    <button>Цвет</button>
+                    <button>Размер</button>
+                    <button>Цена</button>
 
+                </div>
+
+                <select>
+                    <option>Самые популярные</option>
+                    <option>С лучшим рейтингом</option>
+                    <option>По возрастанию цены</option>
+                    <option>По убыванию цены</option>
+                </select>
+
+            </div>
 
             <div class="catalog">
-
-                <h2>Живые фотографии наших работ от реальных клиентов </h2>
 
                 <div class="cards">
 
@@ -372,7 +384,18 @@
 
                     </div>
 
-                    <a href="catalog.html"><button class="look_all">Смотреть все работы</button></a>
+                    <a href="catalog.html"><button class="look_more">Показать еще</button></a>
+
+                </div>
+
+                <div class="numbers_pages">
+
+                    <h4>1</h4>
+                    <h4>2</h4>
+                    <h4>3</h4>
+                    <h4>4</h4>
+                    <h4>...</h4>
+                    <h4>15</h4>
 
                 </div>
 
